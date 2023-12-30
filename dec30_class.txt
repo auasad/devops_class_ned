@@ -1,0 +1,30 @@
+    9  cat /etc/*release ## for checking your OS flavour and release version
+   12  sudo apt update
+   13  sudo apt install git-all ## install git
+   14  git --version
+   15  git
+   19  ping google.com # check internet connectivity
+   23  sudo apt-get install -y iputils-ping # install ping
+   25  ping google.com
+   34  git clone https://github.com/auasad/devops_class_ned.git
+   36  cd devops_class_ned/
+   38  cat README.md 
+   39  git branch
+   46  vim README.md 
+   47  sudo apt install vim -y
+   48  vim README.md 
+   49  git status
+   51  git checkout -- README.md
+   53  vim README.md 
+   55  git add README.md 
+   60  git add README.md 
+   62  git commit -m "Author and change added"
+   63  git config --global user.email "auasad@gmail.com"
+   64  git config --global user.name "auasad"
+   65  git commit -m "Author and change added"
+   67  git push
+   73  ssh-keygen
+   85  git clone git@github.com:auasad/devops_class_ned.git
+  108  cat authorized_keys 
+  111  ssh-keygen --help
+  119  history > dec30_class.txt
