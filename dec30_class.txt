@@ -25,6 +25,12 @@
    67  git push
    73  ssh-keygen
    85  git clone git@github.com:auasad/devops_class_ned.git
-  108  cat authorized_keys 
-  111  ssh-keygen --help
-  119  history > dec30_class.txt
+  108  cat authorized_keys # check authorized ssh keys
+  111  ssh-keygen --help # ssh-keygen help
+  119  history > dec30_class.txt # apend history into txt file
+  125  git branch # check git current branch
+  126  git checkout -b dec30 # create new git branch with name dec30
+  131  git commit -m "dec23 class all history with new branch" 
+  133  git push --set-upstream origin dec30 # push newly created git local branch to remote
+  137  git pull # pulls latest remote changes
+
