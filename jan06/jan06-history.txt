@@ -310,3 +310,85 @@
   310  history
   311  git branch
   312  history > jan06-history.txt
+  313  ls
+  314  mkdir jan06
+  315  ls
+  316  mv jan06-history.txt jan06/
+  317  ls
+  318  mv dec31-history-updated.txt dec31/
+  319  ls
+  320  git status
+  321  ls jan06/
+  322  git status
+  323  git add .
+  324  git status
+  325  git commit -m "jan06 initial history"
+  326  git status
+  327  git push
+  328  git push --set-upstream origin Jan06
+  329  git status
+  330  git branch
+  331  git checkout devops_class
+  332  git branch
+  333  git status
+  334  git merge Jan06
+  335  git status
+  336  git push
+  337  git pull
+  338  git push
+  339  git
+  340  cat .git/config 
+  341  cd ..
+  342  ll
+  343  mkdir ned
+  344  cd ned/
+  345  git pull
+  346  git commit
+  347  git init
+  348  ls -lah
+  349  cat .git/config 
+  350  cd ..
+  351  cd devops_class_ned/
+  352  git
+  353  git mv --help
+  354  git mv
+  355  git mv --help
+  356  man git mv
+  357  git
+  358  git grep --help
+  359  git log
+  360  git
+  361  git show 
+  362  git show --help
+  363  git show 0e3afe7
+  364  git log
+  365  git show 0e3afe7bfab8846c2888f49fa38be109e9277ef3
+  366  git 
+  367  git branch
+  368  git branch test
+  369  git branch
+  370  git checkout test
+  371  git brnach
+  372  git branch
+  373  git checkout devops_class
+  374  git branch
+  375  git
+  376  git diff
+  377  git 
+  378  git branch
+  379  git branch -d test
+  380  git branch
+  381  git checkout dev
+  382  git fetch
+  383  git checkout dev
+  384  git branch
+  385  git
+  386  git branch
+  387  git branch -d dev
+  388  git checkout Jan06
+  389  git branch -d dev
+  390  git branch -D dev
+  391  ls
+  392  cd jan06/
+  393  ls
+  394  history > jan06-history.txt
