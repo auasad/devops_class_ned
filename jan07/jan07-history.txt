@@ -1,0 +1,597 @@
+    1  ls
+    2  cd /
+    3  ld
+    4  ls 
+    5  ls -l
+    6  cd /var/log/
+    7  ll
+    8  exit
+    9  cat /etc/*release
+   10  uname
+   11  id
+   12  sudo apt update
+   13  sudo apt install git-all
+   14  git --versin
+   15  git
+   16  ls
+   17  pwd
+   18  ping google.cocm
+   19  ping google.com
+   20  sudo apt install net-tools
+   21  ping google.cocm
+   22  apt-get install -y iputils-ping
+   23  sudo apt-get install -y iputils-ping
+   24  ping google.cocm
+   25  ping google.com
+   26  ls
+   27  pwd
+   28  mkdir devosp_dec30
+   29  cd devosp_dec30/
+   30  pwd
+   31  cd ..
+   32  sudo rm -fr devosp_dec30/
+   33  pwd
+   34  git clone https://github.com/auasad/devops_class_ned.git
+   35  ls
+   36  cd devops_class_ned/
+   37  ls
+   38  cat README.md 
+   39  git branch
+   40  git
+   41  pwd
+   42  history
+   43  cd ..
+   44  pwd
+   45  cd devops_class_ned/
+   46  vim README.md 
+   47  sudo apt install vim -y
+   48  vim README.md 
+   49  git status
+   50  pwd
+   51  git checkout -- README.md
+   52  git status
+   53  vim README.md 
+   54  git status
+   55  git add README.md 
+   56  git status
+   57  vim README.md 
+   58  git satus
+   59  git status
+   60  git add README.md 
+   61  git status
+   62  git commit -m "Author and change added"
+   63  git config --global user.email "auasad@gmail.com"
+   64  git config --global user.name "auasad"
+   65  git commit -m "Author and change added"
+   66  git status
+   67  git push
+   68  cd ~
+   69  cat .ssh/
+   70  cd .ssh/
+   71  ls -lah
+   72  ssh-keygetn
+   73  ssh-keygen
+   74  ls -lah
+   75  cat id_rsa.pub 
+   76  cd -
+   77  ls
+   78  cd devops_class_ned/
+   79  ls
+   80  git status
+   81  git push
+   82  cd ..
+   83  ls
+   84  mv devops_class_ned/ devops_class_ned.old
+   85  git clone git@github.com:auasad/devops_class_ned.git
+   86  ls
+   87  cd devops_class_ned
+   88  ls
+   89  vim README.md 
+   90  git status
+   91  git add .
+   92  git commit -m "Author added"
+   93  git push
+   94  git status
+   95  ls
+   96  cd ..
+   97  ks
+   98  ls
+   99  rm -fr devops_class_ned.old/
+  100  ls -lha
+  101  cd devops_class_ned/
+  102  history | grep git
+  103  cd ..
+  104  pwd
+  105  ls -lah
+  106  cd .ssh/
+  107  ls -lah
+  108  cat authorized_keys 
+  109  ls -lha
+  110  man ssh-keygen
+  111  ssh-keygen --help
+  112  cat id_rsa.pub 
+  113  pwd
+  114  cd ~
+  115  ls
+  116  cd devops_class_ned/
+  117  ls
+  118  history
+  119  history > dec30_class.txt
+  120  ls -l
+  121  git stauts
+  122  git status
+  123  vim dec30_class.txt 
+  124  git status
+  125  git branch
+  126  git checkout -b dec30
+  127  git branch
+  128  git status
+  129  git add dec30_class.txt 
+  130  git status
+  131  git commit -m "dec23 class all history with new branch"
+  132  git push
+  133  git push --set-upstream origin dec30
+  134  git branch
+  135  ls
+  136  cat README.md 
+  137  git pull
+  138  cat README.md 
+  139  git branch
+  140  ls
+  141  cat dec30_class.txt 
+  142  history
+  143  vim dec30_class.txt 
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "history updated for dec30 class"
+  148  git psh
+  149  git push
+  150  cd ~
+  151  ls
+  152  pwd
+  153  mkdir vms
+  154  ls
+  155  cd vms/
+  156  ls
+  157  mkdir task
+  158  cd task/
+  159  mkdir ubuntu
+  160  mkdir centos
+  161  mkdir debian
+  162  ls
+  163  cd centos/
+  164  sudo apt instal tree
+  165  sudo apt install tree
+  166  cd ..
+  167  tree
+  168  cd vms/
+  169  pwd
+  170  ls
+  171  tree
+  172  ll
+  173  cd task/
+  174  ll
+  175  cd ..
+  176  ll
+  177  cd devops_class_ned/
+  178  ll
+  179  history
+  180  history > task-1.txt
+  181  ls
+  182  git checkout -b task-1
+  183  git branch
+  184  ls
+  185  git add .
+  186  git commit -m "task 1 complete"
+  187  git push
+  188  git push --set-upstream origin task-1
+  189  ls
+  190  git
+  191  pwd
+  192  git
+  193  cd ..
+  194  mkdir test
+  195  cd test/
+  196  ll
+  197  git add .
+  198  cd ..
+  199  cd devops_class_ned/
+  200  mkdir test
+  201  cd t
+  202  cd test/
+  203  git add .
+  204  cd ..
+  205  ls
+  206  cd test/
+  207  git add .
+  208  git init
+  209  ls -lah
+  210  cd .git/
+  211  ls -lah
+  212  cd ..
+  213  git 
+  214  cd devops_class_ned/
+  215  git show
+  216  git status
+  217  git log
+  218  git
+  219  history
+  220  git 
+  221  git status
+  222  git branch
+  223  ls
+  224  ls -l
+  225  cat task-1.txt 
+  226  ls
+  227  cat dec30_class.txt 
+  228  cat task-1.txt 
+  229  ls
+  230  mv test/ dec31
+  231  ls
+  232  cd dec31/
+  233  ls
+  234  history > dec31-history.txt
+  235  ls
+  236  cd ..
+  237  git status
+  238  git add .
+  239  git commit -m "dec31 class history"
+  240  git push
+  241  ls
+  242  mkdir dec31
+  243  mkdir dec30
+  244  ls
+  245  mv dec30_class.txt dec30/
+  246  ls
+  247  mv task-1.txt dec30/
+  248  ls
+  249  git status
+  250  git add .
+  251  git commit -m "structure setup"
+  252  git push
+  253  ls
+  254  git branch
+  255  ls
+  256  git checkout main
+  257  git brnach
+  258  git branch
+  259  ls
+  260  git checkout dec30
+  261  git branch
+  262  ls
+  263  git checkout main
+  264  git branch
+  265  ls
+  266  git merge task-1
+  267  git status
+  268  ls
+  269  git chekout -b devops_class
+  270  git checkout -b devops_class
+  271  git branch
+  272  ls
+  273  git checkout -b Feature-1
+  274  git branch
+  275  history > dec31-history-updated.txt
+  276  ls
+  277  git status
+  278  git add .
+  279  git commit -m "dec31 class update history"
+  280  git push
+  281  git push --set-upstream origin Feature-1
+  282  git branch
+  283  git checkout devops_class
+  284  git branch
+  285  git status
+  286  git push
+  287  git push --set-upstream origin devops_class
+  288  git branch
+  289  git checkout Feature-1
+  290  git branch
+  291  git checkout devops_class
+  292  git branch
+  293  ls
+  294  git merge Feature-1
+  295  git status
+  296  ls
+  297  git branch
+  298  ls
+  299  ll
+  300  vagrant halt
+  301  exit
+  302  git
+  303  history
+  304  \
+  305  ls
+  306  cd devops_class_ned/
+  307  git branch
+  308  git checkout -b Jan06
+  309  git branch
+  310  history
+  311  git branch
+  312  history > jan06-history.txt
+  313  ls
+  314  mkdir jan06
+  315  ls
+  316  mv jan06-history.txt jan06/
+  317  ls
+  318  mv dec31-history-updated.txt dec31/
+  319  ls
+  320  git status
+  321  ls jan06/
+  322  git status
+  323  git add .
+  324  git status
+  325  git commit -m "jan06 initial history"
+  326  git status
+  327  git push
+  328  git push --set-upstream origin Jan06
+  329  git status
+  330  git branch
+  331  git checkout devops_class
+  332  git branch
+  333  git status
+  334  git merge Jan06
+  335  git status
+  336  git push
+  337  git pull
+  338  git push
+  339  git
+  340  cat .git/config 
+  341  cd ..
+  342  ll
+  343  mkdir ned
+  344  cd ned/
+  345  git pull
+  346  git commit
+  347  git init
+  348  ls -lah
+  349  cat .git/config 
+  350  cd ..
+  351  cd devops_class_ned/
+  352  git
+  353  git mv --help
+  354  git mv
+  355  git mv --help
+  356  man git mv
+  357  git
+  358  git grep --help
+  359  git log
+  360  git
+  361  git show 
+  362  git show --help
+  363  git show 0e3afe7
+  364  git log
+  365  git show 0e3afe7bfab8846c2888f49fa38be109e9277ef3
+  366  git 
+  367  git branch
+  368  git branch test
+  369  git branch
+  370  git checkout test
+  371  git brnach
+  372  git branch
+  373  git checkout devops_class
+  374  git branch
+  375  git
+  376  git diff
+  377  git 
+  378  git branch
+  379  git branch -d test
+  380  git branch
+  381  git checkout dev
+  382  git fetch
+  383  git checkout dev
+  384  git branch
+  385  git
+  386  git branch
+  387  git branch -d dev
+  388  git checkout Jan06
+  389  git branch -d dev
+  390  git branch -D dev
+  391  ls
+  392  cd jan06/
+  393  ls
+  394  history > jan06-history.txt
+  395  cat jan06-history.txt 
+  396  history
+  397  git status
+  398  git add .
+  399  git commit -m "updated history on Jan06"
+  400  git push
+  401  git branch
+  402  git checkout devops_class
+  403  git branch
+  404  git merge Jan06
+  405  git push
+  406  exit
+  407  ip a s
+  408  ip 
+  409  sudo apt install net-tools
+  410  ip 
+  411  cat /etc/release
+  412  cat /etc/*release
+  413  apt install iproute2 -y
+  414  sudo apt install iproute2 -y
+  415  ip a s
+  416  exit
+  417  ip a s
+  418  exit
+  419  ip a s
+  420  exit
+  421  ip a s
+  422  hostnamectl set-hostname console1
+  423  sudo hostnamectl set-hostname console1
+  424  sudo hostnamectl set-hostname new-one
+  425  sudo hostname new-one
+  426  sudo su
+  427  sudo hostname new-one
+  428  sudo su
+  429  exit
+  430  ip a s
+  431  ping localhost
+  432  upimte
+  433  uptime
+  434  date
+  435  less /var/log/lastlog 
+  436  1
+  437  less /var/log/dpkg.log 
+  438  date
+  439  less /var/log/dpkg.log 
+  440  uptime
+  441  free -m
+  442  htop
+  443  apache
+  444  apache2
+  445  top
+  446  date
+  447  top
+  448  cat /etc/*release
+  449  sudo apt-get update
+  450  sudo apt  update
+  451  sudo apt install htop
+  452  htop
+  453  df -h
+  454  df -hT
+  455  df -h
+  456  free -m
+  457  free -h
+  458  free --help
+  459  free -ml
+  460  free -h -s 1
+  461  free --help
+  462  free -h -c 5
+  463  free --help
+  464  free -hw
+  465  free -hc 5
+  466  free --help
+  467  free -m
+  468  free -h
+  469  free -hs 1
+  470  free -hsc 1
+  471  free -hs 1 -c 3
+  472  uptime --help
+  473  uptime -p
+  474  uptime -s
+  475  uptime
+  476  sudo apt update -y
+  477  sudo apt install apache2
+  478  sudo systemctl status apache2.service
+  479  sudo servive apache2 status
+  480  sudo service apache2 status
+  481  sudo service apache2 start
+  482  sudo service apache2 status
+  483  sudo service apache2 stop
+  484  sudo apt install nginx
+  485  sudo service nginx status
+  486  sudo service nginx start
+  487  sudo service nginx status
+  488  netstat
+  489  ss
+  490  netstat
+  491  ss
+  492  netstat -an
+  493  netstat --help
+  494  netstat -r
+  495  ip a s
+  496  netstat -r
+  497  netstat --help
+  498  netstat -i
+  499  netstat --help
+  500  netstat -s
+  501  ping google.com
+  502  netstat -s
+  503  ping google.com
+  504  netstat --help
+  505  ping google.co
+  506  ping asad.com
+  507  ping asad.com.pk
+  508  netstat --help
+  509  netstat -sw
+  510  netstat -w
+  511  netstat --help
+  512  sudo service nginx status
+  513  netstat -p
+  514  netstat --help
+  515  netstat -p
+  516  netstat --help
+  517  netstat -c
+  518  netstat -p
+  519  netstat -c
+  520  netstat --help
+  521  netstat -l
+  522  netstat
+  523  netstat -a
+  524  netstat
+  525  netstat a
+  526  netstat -a
+  527  netstat --help
+  528  netstat -an
+  529  netstat -ant
+  530  netstat -anu
+  531  netstat -ant
+  532  netstat -anu
+  533  netstat -antu
+  534  netstat -a
+  535  netstat -an
+  536  netstat -antp
+  537  netstat -ant
+  538  netstat -antp
+  539  netstat -antp | grep 80
+  540  netstat -tulpano 
+  541  netstat
+  542  netstat -anup | grep 80
+  543  netstat -antp | grep 80
+  544  netstat -antp | grep -i listen
+  545  netstat -antp | grep -i established
+  546  netstat -antp | grep 40069
+  547  netstat -antp | grep 22
+  548  ss
+  549  ss -antp
+  550  ss -antp | grep 80
+  551  ss -antp | grep :80
+  552  ss -tulpano
+  553  netstat -an
+  554  netstat -n
+  555  netstat -nt
+  556  netstat -nu
+  557  netstat -antp
+  558  netstat -ant
+  559  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  560  sudo apt-get update
+  561  sudo apt update
+  562  sudo apt-get install ca-certificates curl gnupg
+  563  cat /etc/apt/sources.list.d/docker.list
+  564  cat /etc/apt/sources.list
+  565  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  566  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  567  sudo install -m 0755 -d /etc/apt/keyrings
+  568  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  569  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  570  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  571  sudo apt-get update
+  572  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  573  docker
+  574  cat /etc/apt/sources.list
+  575  cat /etc/apt/sources.list | grep docker
+  576  docker --version
+  577  docker compose --version
+  578  docker compose
+  579  docker-compose
+  580  docker compose
+  581  sudo docker run hello-world
+  582  sudo systemctl status docker
+  583  sudo service docker status
+  584  sudo service docker start
+  585  ll
+  586  cd devops_class_ned/
+  587  ll
+  588  git status
+  589  git pull
+  590  git branch
+  591  git checkout Jan07
+  592  git checkout -b Jan07
+  593  git branch
+  594  mkdir jan07
+  595  cd jan07
+  596  history > jan07-history.txt
